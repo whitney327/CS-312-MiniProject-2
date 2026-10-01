@@ -1,0 +1,58 @@
+body {
+    background: #DDECD9;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    color: #397132;
+    text-align: center;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+}
+
+button {
+    padding: 10px 18px;
+    background-color: #397132;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid gainsboro;
+}
+
+.joke {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #DDECD9;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 500;
+}
